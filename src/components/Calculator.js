@@ -1,4 +1,3 @@
-/* eslint-disable react/destructuring-assignment */
 import React from 'react';
 // import './Calculator.css';
 
@@ -11,9 +10,10 @@ class Calculator extends React.Component {
   }
 
   render() {
+    const { result } = this.state;
     return (
       <div className="calc-container">
-        <h2 className="result">{this.state.result}</h2>
+        <h2 className="result">{ result }</h2>
         <button type="button" className="gButton">AC</button>
         <button type="button" className="gButton">+/-</button>
         <button type="button" className="gButton">%</button>
