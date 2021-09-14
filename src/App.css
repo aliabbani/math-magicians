@@ -1,0 +1,31 @@
+.calc-container {
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+  -ms-grid-rows: repeat(6, 1fr);
+  width: 50vw;
+  height: 50vw;
+}
+
+.result {
+  display: flex;
+  grid-column: span 4;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #858694;
+  margin: 0;
+  color: #fff;
+}
+
+.zero {
+  grid-column: span 2;
+}
+
+.gButton {
+  background-color: #e0e0e0;
+  color: #404041;
+}
+
+.oButton {
+  background-color: #f5913e;
+  color: #422c14;
+}

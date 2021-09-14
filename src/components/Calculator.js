@@ -1,6 +1,6 @@
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
-import './Calculator.css';
+// import './Calculator.css';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -12,29 +12,27 @@ class Calculator extends React.Component {
 
   render() {
     return (
-      <div>
-        <h2>{this.state.result}</h2>
-        <div>
-          <button type="button" >AC</button>
-          <button type="button">+/-</button>
-          <button type="button">%</button>
-          <button type="button">/</button>
-          <button type="button">7</button>
-          <button type="button">8</button>
-          <button type="button">9</button>
-          <button type="button">*</button>
-          <button type="button">4</button>
-          <button type="button">5</button>
-          <button type="button">6</button>
-          <button type="button">-</button>
-          <button type="button">1</button>
-          <button type="button">2</button>
-          <button type="button">3</button>
-          <button type="button">+</button>
-          <button type="button">0</button>
-          <button type="button">.</button>
-          <button type="button">=</button>
-        </div>
+      <div className="calc-container">
+        <h2 className="result">{this.state.result}</h2>
+        <button type="button" className="gButton">AC</button>
+        <button type="button" className="gButton">+/-</button>
+        <button type="button" className="gButton">%</button>
+        <button type="button" className="oButton">/</button>
+        <button type="button" className="gButton">7</button>
+        <button type="button" className="gButton">8</button>
+        <button type="button" className="gButton">9</button>
+        <button type="button" className="oButton">*</button>
+        <button type="button" className="gButton">4</button>
+        <button type="button" className="gButton">5</button>
+        <button type="button" className="gButton">6</button>
+        <button type="button" className="oButton">-</button>
+        <button type="button" className="gButton">1</button>
+        <button type="button" className="gButton">2</button>
+        <button type="button" className="gButton">3</button>
+        <button type="button" className="oButton">+</button>
+        <button type="button" className="gButton zero">0</button>
+        <button type="button" className="gButton">.</button>
+        <button type="button" className="oButton">=</button>
       </div>
     );
   }
