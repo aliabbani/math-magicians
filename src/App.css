@@ -4,6 +4,7 @@
   -ms-grid-rows: repeat(6, 1fr);
   width: 50vw;
   height: 50vw;
+  border-color: #fff;
 }
 
 .result {
@@ -23,9 +24,11 @@
 .gButton {
   background-color: #e0e0e0;
   color: #404041;
+  border-color: #fff;
 }
 
 .oButton {
   background-color: #f5913e;
   color: #422c14;
+  border-color: #fff;
 }
