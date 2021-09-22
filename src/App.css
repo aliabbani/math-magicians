@@ -32,3 +32,8 @@
   color: #422c14;
   border-color: #fff;
 }
+
+.active-link {
+  color: orangered;
+  text-decoration: underline;
+}
