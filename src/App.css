@@ -37,3 +37,23 @@
   color: orangered;
   text-decoration: underline;
 }
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3vw;
+}
+
+.navBar-ul {
+  display: flex;
+  gap: 2vw;
+}
+
+.navBar-li {
+  list-style-type: none;
+}
+
+.home-container,
+.quote-container {
+  padding: 0 2vw;
+}

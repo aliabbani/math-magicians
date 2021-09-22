@@ -16,17 +16,17 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Navbar />
+        <Navbar className="fixed-nav" />
         <Switch>
           <Route exact path="/calculator">
             <div className="container">
               <Calculator />
             </div>
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/quote">
+          <Route exact path="/quote">
             <Quote />
           </Route>
           <Route path="*">
