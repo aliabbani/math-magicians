@@ -7,7 +7,9 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 
 ## Live Demo
 
-Later
+[Heroku link](https://ali-math-magicians.herokuapp.com/)
+
+[Netlify link](https://wizardly-nobel-d4f1dd.netlify.app/)
 
 
 ## Getting Started
